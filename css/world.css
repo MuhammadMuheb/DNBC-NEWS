@@ -70,7 +70,7 @@
      background-size:cover;
      background-repeat: no-repeat;
      background-position:bottom;
-     background-image: url("../image/karachi.jpg");
+     background-image: url("../image/Karachi.jpg");
      border-radius:30%;
      color: #343434;
      opacity: 0;
@@ -86,7 +86,7 @@
 }
 
 .images li:nth-child(2) {
-     background-image: url('../image/lahore.jpg');
+     background-image: url('../image/Lahore.jpg');
 }
 .images li:nth-child(3) {
      background-image: url('../image/Islamabad.jpg');
