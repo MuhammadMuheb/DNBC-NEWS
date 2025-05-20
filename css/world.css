@@ -25,11 +25,11 @@
      background-position: center;
      box-sizing: border-box;
      transition: all 0.3s ease;
-     background-image: url("../image/karachi.jpg");
+     background-image: url("../image/Karachi.jpg");
      animation: border-transform 6s linear infinite alternate forwards;
 }
 .checkbox.scnd + label{
-     background-image: url("../image/lahore.jpg");
+     background-image: url("../image/Lahore.jpg");
 }
 .checkbox.thrd + label{
      background-image: url('../image/Islamabad.jpg');
