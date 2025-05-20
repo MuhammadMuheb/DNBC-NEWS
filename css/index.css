@@ -1,0 +1,373 @@
+/* section */
+.section {
+  padding-top:100px;
+  height:954px;
+  width:100%;
+  position: relative;
+  box-shadow:0 10px 20px rgb(0, 0, 0);
+}
+.img_slide{
+  position:absolute;
+  bottom:1px;
+  left:50px;
+  width:400px;
+}
+.carousel-control-next{
+  background-color: #aaa6a6 !important;
+  color: #000 !important;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  right:3rem;
+  top:50%;
+}
+.carousel-control-prev{
+  background-color: #aaa6a6 !important;
+  color: #000 !important;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  left:3rem;
+  top:50%;
+}
+.carousel-indicators button{
+  background-color: #000000 !important;
+  color: #00ddff !important;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover{
+  background-color: #2f2e2e;
+}
+/* main-section-card */
+#card-0{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  box-shadow:0 8px 10px rgb(0, 0, 0);
+  display: flex;
+}
+.card:hover::after {
+  filter: blur(30px);
+}
+
+.services-details {
+  transition: all 0.5s ease 0s;
+  margin: 0 100px 0 120px;
+  text-align: center;
+  font-family:'Poppins', sans-serif;
+  font-style: italic;
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  width: 300px;
+  height:300px;
+}
+.services-details-1{
+  background-image:url(../image/newspaper-business-news.webp) ;
+  background-repeat:no-repeat ;
+  background-size:300px 300px;
+}
+.services-details-2{
+  background-image:url(../image/OIP.jpeg) ;
+  background-repeat:no-repeat ;
+  background-size:300px 300px;
+}
+.services-details-3{
+  background-image:url(../image/Newpaper-sport.jpeg) ;
+  background-repeat:no-repeat ;
+  background-size:300px 300px;
+}
+.services-details::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: 310px;
+  height:310px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  z-index: -10;
+  pointer-events: none;
+  transition: all 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.services-details:hover::before {
+  transform: rotate(-90deg) scaleX(1.10) scaleY(0.85);
+}
+.services-details:hover h4,
+.services-details:hover .services-icon{
+  color: #00ddff;
+}
+.single-services h4 {
+  color: #444;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.services-icon {
+  color: #444;
+  display:flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size:50px;
+  padding-top:80px;
+}
+.section-headline h2 {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left:45%;
+  margin-bottom: 70px;
+  margin-top:50px ;
+  color:rgb(0, 140, 255);
+}
+
+ /* main-aside-business */
+.aside {
+  height: 400px;
+  margin:50px 0;
+  position: relative;
+  box-shadow:0 8px 10px rgb(0, 0, 0);
+}
+.aside img{
+  width:30%;
+  height:300px;
+  float: left;
+  margin-left:200px;
+  margin-right: -80px;
+  filter: drop-shadow(0 1px 10px rgba(17, 0, 255, 0.788));
+}
+.aside-business{
+  width:40%;
+  height: 300px;
+  float:left;
+  text-align: center;
+  margin-left:200px;
+  margin-top:35px ;
+}
+.aside-business h2{
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom:20px;
+  color:rgb(0, 140, 255);
+}
+.aside-business p{
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+/* main-aside-news  */
+.main-news{
+  height: 450px;
+  margin:50px 0;
+  box-shadow:0 8px 10px rgb(0, 0, 0);
+  position: relative;
+}
+.aside-news{
+  width:40%;
+  height: 300px;
+  float:left;
+  position: relative;
+  text-align: center;
+  margin-left:80px;
+}
+.aside-news h2{
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom:30px;
+  color:rgb(0, 140, 255);
+}
+.aside-news p{
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+.news-img{
+  margin-left:150px;
+  float: left;
+  filter: drop-shadow(0 8px 8px rgba(17, 0, 255, 0.788));
+}
+/* main-aside-sport */
+.main-sport{
+  height: 450px;
+  box-shadow:0 8px 10px rgb(0, 0, 0);
+  position: relative;
+}
+.aside-sport{
+  width:40%;
+  margin-top:30px;
+  float:left;
+  text-align: center;
+}
+.aside-sport h2{
+  font-size: 3rem;
+  margin-bottom:20px;
+  color:rgb(0, 140, 255);
+}
+.aside-sport p{
+  font-size: 1.4rem;
+  color: #fafafa;
+}
+.sport-img{
+  margin-top:-40px;
+  margin-left:80px;
+  float: left;
+  filter: drop-shadow(0 7px 8px rgba(17, 0, 255, 0.788));
+}
+@media screen and (min-width: 1921px){
+  /* section */
+.section {
+  padding-top:100px;
+  height:954px;
+  width:100%;
+  position: relative;
+  box-shadow:0 10px 20px rgb(0, 0, 0);
+}
+.img_slide{
+  position:absolute;
+  bottom:1px;
+  left:50px;
+  width:400px;
+}
+.carousel-control-next{
+  background-color: #aaa6a6 !important;
+  color: #000 !important;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  right:3rem;
+  top:50%;
+}
+.carousel-control-prev{
+  background-color: #aaa6a6 !important;
+  color: #000 !important;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  left:3rem;
+  top:50%;
+}
+.carousel-indicators button{
+  background-color: #000000 !important;
+  color: #00ddff !important;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover{
+  background-color: #2f2e2e;
+}
+/* main-section-card */
+.services-details {
+  margin: 0 200px 0 145px;}
+.services-details-1{
+  background-image:url(../image/newspaper-business-news.webp) ;
+  background-repeat:no-repeat ;
+  background-size:300px 300px;
+}
+.services-details-2{
+  background-image:url(../image/OIP.jpeg) ;
+  background-repeat:no-repeat ;
+  background-size:300px 300px;
+}
+.services-details-3{
+  background-image:url(../image/Newpaper-sport.jpeg) ;
+  background-repeat:no-repeat ;
+  background-size:300px 300px;
+}
+.services-details::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: 310px;
+  height:310px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  z-index: -10;
+  pointer-events: none;
+  transition: all 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.services-details:hover::before {
+  transform: rotate(-90deg) scaleX(1.10) scaleY(0.85);
+}
+.services-details:hover h4,
+.services-details:hover .services-icon{
+  color: #00ddff;
+}
+.single-services h4 {
+  color: #444;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.services-icon {
+  color: #444;
+  display:flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size:50px;
+  padding-top:80px;
+}
+.section-headline h2 {
+  font-size: 50px;
+  margin-top:250px;
+}
+
+ /* main-aside-business */
+.aside img{
+  margin-left:240px;
+  margin-right:0px;
+}
+.aside-business{
+  margin-left:240px;
+  margin-top:30px ;
+}
+.aside-business h2{
+  font-size: 4rem;
+  margin-bottom:10px;
+}
+.aside-business p{
+  font-size: 1.5rem;
+}
+
+/* main-aside-news  */
+.aside-news{
+  margin-left:100px;
+}
+.aside-news h2{
+  font-size: 4rem;
+  margin-bottom:10px;
+}
+.aside-news p{
+  font-size: 1.5rem;
+}
+.news-img{
+  margin-left:240px;
+}
+/* main-aside-sport */
+.main-sport{
+  height: 450px;
+  box-shadow:0 8px 10px rgb(0, 0, 0);
+  position: relative;
+}
+.aside-sport{
+  width:40%;
+  margin-top:40px;
+  float:left;
+  text-align: center;
+}
+.aside-sport h2{
+  font-size: 4rem;
+  margin-bottom:10px;
+}
+.aside-sport p{
+  font-size: 1.5rem;
+}
+.sport-img{
+  margin-top:-10px;
+  margin-left:100px;
+  margin-right: 200px;
+}  
+}

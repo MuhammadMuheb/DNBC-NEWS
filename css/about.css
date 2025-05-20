@@ -1,0 +1,86 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+#about .main-about{
+     margin-top:80px;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height:700px;
+     text-align: center;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     box-shadow:0 15px 20px rgb(0, 0, 0);
+}
+.main-about-1 h2 {
+     color: #fff;
+     margin-bottom:20px;
+     font-size:50px;
+     font-weight: 700;
+     color: #1479EA;
+}
+.main-about-1 p {
+     font-size: 45px;
+     line-height: 1.0;
+     margin: 0 auto 40px auto;
+     color: #fff;
+}
+button{
+     padding:15px 40px;
+     position:relative;
+     border: 3px ridge #149CEA;
+     background-color: transparent;
+     color: white;
+     border-radius:3em;
+     font-size:20px;
+     text-decoration: none;
+}
+button:hover::before, button:hover::after {
+     transform: scale(0)
+}
+button:hover {
+     box-shadow: inset 0px 0px 35px #0077ff;
+     transition: 1s;
+     color: #ffffff;
+}
+/* sport */
+.about-contant{
+     width:100%;
+     box-shadow:0 10px 10px rgb(0, 0, 0);
+     height:500px;
+}
+.about-contant .video{
+     width:45%;
+     float: left;
+     height:400px;
+}
+ video{
+     width:100%;
+     height: 100%;
+     margin-top:-8px;
+}
+ h1{
+     text-align: center;
+     margin:30px;
+     color: #149CEA;
+     font-size:40px;
+}
+#about-contant {
+     color:#fff;
+     background-color: black;
+     width: 55%;
+     height:392px;
+     float: left;
+}
+#about-contant p{
+     font-size: 20px;
+     font-weight: 600;
+     letter-spacing:1px;
+     line-height:30px;
+     text-align: center;
+     margin:90px;
+}
