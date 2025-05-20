@@ -25,20 +25,20 @@
      background-position: center;
      box-sizing: border-box;
      transition: all 0.3s ease;
-     background-image: url("image/Karachi.jpg");
+     background-image: url("../image/Karachi.jpg");
      animation: border-transform 6s linear infinite alternate forwards;
 }
 .checkbox.scnd + label{
-     background-image: url("image/Lahore.jpg");
+     background-image: url("../image/Lahore.jpg");
 }
 .checkbox.thrd + label{
-     background-image: url('image/Islamabad.jpg');
+     background-image: url('../image/Islamabad.jpg');
 }
 .checkbox.foth + label{
-     background-image: url('image/Multan.jpg');
+     background-image: url('../image/Multan.jpg');
 }
 .checkbox.fivth + label{
-     background-image: url('image/Quetta.jpg');
+     background-image: url('../8image/Quetta.jpg');
 }
 .checkbox:checked + label{
      transform: scale(1.3);
@@ -70,7 +70,7 @@
      background-size:cover;
      background-repeat: no-repeat;
      background-position:bottom;
-     background-image: url("image/Karachi.jpg");
+     background-image: url("../image/Karachi.jpg");
      border-radius:30%;
      color: #343434;
      opacity: 0;
@@ -86,16 +86,16 @@
 }
 
 .images li:nth-child(2) {
-     background-image: url('image/Lahore.jpg');
+     background-image: url('../image/Lahore.jpg');
 }
 .images li:nth-child(3) {
-     background-image: url('image/Islamabad.jpg');
+     background-image: url('../image/Islamabad.jpg');
 }
 .images li:nth-child(4) {
-     background-image: url('image/Multan.jpg');
+     background-image: url('../image/Multan.jpg');
 }
 .images li:nth-child(5) {
-     background-image: url('image/Quetta.jpg');
+     background-image: url('../image/Quetta.jpg');
 }
 .checkbox.frst:checked ~ .images li:nth-child(1) {
      opacity: 1;

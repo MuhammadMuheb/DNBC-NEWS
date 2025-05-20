@@ -231,7 +231,7 @@ button:hover {
 	height:700px;
 	margin-top:30px;
 	text-align: center;
-	background: #ffffff url('image/bg-10.jpg') left top no-repeat fixed;
+	background: #ffffff url('../image/bg-01.jpg') left top no-repeat fixed;
 	background-size: cover;
 }
 .title-default {
