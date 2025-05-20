@@ -3,7 +3,7 @@
 // card
 let mcard = [
 {
-card_image:"../image/bg-04.jpg",
+card_image:"image/bg-04.jpg",
 card_title:"Blues can silence <br>critics - Carney ",
 card_paragraph:"Birmingham City's Karen Carney says they have proved critics wrong by reaching the Women's Champions League semi-finals.",
 card_icon_1:"bx bx-calendar",
@@ -12,7 +12,7 @@ card_icon_3:"bx bx-tag",
 card_icon_4:"31 Mar 2025", 
 },
 {
-card_image:"../image/bg-03.jpg",
+card_image:"image/bg-03.jpg",
 card_title:"Blues can silence <br>critics - Carney ",
 card_paragraph:"Birmingham City's Karen Carney says they have proved critics wrong by reaching the Women's Champions League semi-finals.",
 card_icon_1:"bx bx-calendar",
@@ -21,7 +21,7 @@ card_icon_3:"bx bx-tag",
 card_icon_4:"31 Mar 2025",
 },
 {
-card_image:"../image/bg-06.jpg",
+card_image:"image/bg-06.jpg",
 card_title:"Blues can silence <br>critics - Carney ",
 card_paragraph:"Birmingham City's Karen Carney says they have proved critics wrong by reaching the Women's Champions League semi-finals.",
 card_icon_1:"bx bx-calendar",
@@ -30,7 +30,7 @@ card_icon_3:"bx bx-tag",
 card_icon_4:"31 Mar 2025",
 },
 {
-card_image:"../image/bg-07.jpg",
+card_image:"image/bg-07.jpg",
 card_title:"Blues can silence <br>critics - Carney ",
 card_paragraph:"Birmingham City's Karen Carney says they have proved critics wrong by reaching the Women's Champions League semi-finals.",
 card_icon_1:"bx bx-calendar",

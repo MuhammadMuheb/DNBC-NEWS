@@ -25,20 +25,20 @@
      background-position: center;
      box-sizing: border-box;
      transition: all 0.3s ease;
-     background-image: url("../image/Karachi.jpg");
+     background-image: url("image/Karachi.jpg");
      animation: border-transform 6s linear infinite alternate forwards;
 }
 .checkbox.scnd + label{
-     background-image: url("../image/Lahore.jpg");
+     background-image: url("image/Lahore.jpg");
 }
 .checkbox.thrd + label{
-     background-image: url('../image/Islamabad.jpg');
+     background-image: url('image/Islamabad.jpg');
 }
 .checkbox.foth + label{
-     background-image: url('../image/Multan.jpg');
+     background-image: url('image/Multan.jpg');
 }
 .checkbox.fivth + label{
-     background-image: url('../image/Quetta.jpg');
+     background-image: url('image/Quetta.jpg');
 }
 .checkbox:checked + label{
      transform: scale(1.3);
@@ -70,7 +70,7 @@
      background-size:cover;
      background-repeat: no-repeat;
      background-position:bottom;
-     background-image: url("../image/Karachi.jpg");
+     background-image: url("image/Karachi.jpg");
      border-radius:30%;
      color: #343434;
      opacity: 0;
@@ -86,16 +86,16 @@
 }
 
 .images li:nth-child(2) {
-     background-image: url('../image/Lahore.jpg');
+     background-image: url('image/Lahore.jpg');
 }
 .images li:nth-child(3) {
-     background-image: url('../image/Islamabad.jpg');
+     background-image: url('image/Islamabad.jpg');
 }
 .images li:nth-child(4) {
-     background-image: url('../image/Multan.jpg');
+     background-image: url('image/Multan.jpg');
 }
 .images li:nth-child(5) {
-     background-image: url('../image/Quetta.jpg');
+     background-image: url('image/Quetta.jpg');
 }
 .checkbox.frst:checked ~ .images li:nth-child(1) {
      opacity: 1;
@@ -156,7 +156,7 @@
      cursor: pointer;
 	border-radius:10px;
 	position: relative;
-	width: 270px;
+	width: 240px;
 	height:400px;
 }
 .services_details img{
@@ -170,7 +170,7 @@
      inset: 0;
      left: -5px;
      margin: auto;
-     width: 280px;
+     width: 250px;
      height:410px;
      border-radius: 10px;
      background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
@@ -187,7 +187,7 @@
      filter: blur(20px);
 }
 .services_details:hover::before {
-     transform: rotate(-90deg) scaleX(1.10) scaleY(0.80);
+     transform: rotate(-90deg) scaleX(1.00) scaleY(0.80);
 }
      .services_details:hover h4,
      .services_details:hover p {
@@ -215,7 +215,6 @@
 /* karachi-text */
 #main-text{
      width: 100%;
-     /* height:auto; */
      box-shadow:0 8px 10px rgb(0, 0, 0);
 }
 .ct{

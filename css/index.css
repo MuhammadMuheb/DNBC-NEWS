@@ -64,17 +64,17 @@
   height:300px;
 }
 .services-details-1{
-  background-image:url(../image/newspaper-business-news.webp) ;
+  background-image:url(image/newspaper-business-news.webp) ;
   background-repeat:no-repeat ;
   background-size:300px 300px;
 }
 .services-details-2{
-  background-image:url(../image/OIP.jpeg) ;
+  background-image:url(image/OIP.jpeg) ;
   background-repeat:no-repeat ;
   background-size:300px 300px;
 }
 .services-details-3{
-  background-image:url(../image/Newpaper-sport.jpeg) ;
+  background-image:url(image/Newpaper-sport.jpeg) ;
   background-repeat:no-repeat ;
   background-size:300px 300px;
 }
@@ -261,17 +261,17 @@
 .services-details {
   margin: 0 200px 0 145px;}
 .services-details-1{
-  background-image:url(../image/newspaper-business-news.webp) ;
+  background-image:url(image/newspaper-business-news.webp) ;
   background-repeat:no-repeat ;
   background-size:300px 300px;
 }
 .services-details-2{
-  background-image:url(../image/OIP.jpeg) ;
+  background-image:url(image/OIP.jpeg) ;
   background-repeat:no-repeat ;
   background-size:300px 300px;
 }
 .services-details-3{
-  background-image:url(../image/Newpaper-sport.jpeg) ;
+  background-image:url(image/Newpaper-sport.jpeg) ;
   background-repeat:no-repeat ;
   background-size:300px 300px;
 }
