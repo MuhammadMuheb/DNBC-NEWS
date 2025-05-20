@@ -9,7 +9,7 @@ card_paragraph:"Birmingham City's Karen Carney says they have proved critics wro
 card_icon_1:"bx bx-calendar",
 card_icon_2:"31 Mar 2025",
 card_icon_3:"bx bx-tag",
-card_icon_4:"31 Mar 2025",
+card_icon_4:"31 Mar 2025", 
 },
 {
 card_image:"../image/bg-03.jpg",

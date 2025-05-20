@@ -6,7 +6,7 @@ document.getElementsByClassName("col_md_12")[0].innerHTML=
 <h2>Business</h2>
 </div>
 `
-let mcard = [
+let mcard = [ 
 {
 card_icon_1:"bx bxs-briefcase",
 card_title:"Expert Coder",

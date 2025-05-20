@@ -5,7 +5,7 @@ document.getElementsByClassName("header")[0].innerHTML=
 <div class="nav-links_1">
 <div class="sidebar-logo_1">
 </div>
-<ul class="link_s">
+<ul class="link_s"> 
 <li><a class="ab " href="index.html">HOME</a></li>
 <li><a class="ab " href="about.html">ABOUT US</a></li>
 <li><a class="ab " href="sport.html">SPORTS</a></li>

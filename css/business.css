@@ -9,9 +9,7 @@
   background-position: center;
   background-repeat: no-repeat;
   box-shadow:0 15px 20px rgb(0, 0, 0);
-  /* overflow: auto; */
-  /* resize: both; */
-}
+}   
 
 .container_fluid-1 h2 {
   margin-bottom:20px;

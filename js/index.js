@@ -6,7 +6,7 @@ document.getElementsByClassName("section-headline")[0].innerHTML=
 let mcard = [
 {
 card_icon:"bx bxs-business",
-card_title:"BUSINESS",
+card_title:"BUSINESS", 
 },
 {
 card_icon:"bx bx-news",

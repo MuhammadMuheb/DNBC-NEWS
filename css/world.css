@@ -13,7 +13,7 @@
      left: -9999px;
 }
 .checkbox:checked + label,
-.checkbox:not(:checked) + label{
+.checkbox:not(:checked) + label{ 
      position: relative;
      cursor: pointer;
      top:80px;

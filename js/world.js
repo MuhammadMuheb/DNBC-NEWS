@@ -11,7 +11,7 @@ card_paragraph:"Karachi is the capital city of the Pakistani province of Sindh. 
 },
 {
 card_image:"../image/Lahore.jpg",
-card_title:"LAHORE",
+card_title:"LAHORE", 
 card_paragraph:"Lahore is the capital and largest city of the Pakistani province of Punjab. It is the second largest city in Pakistan, after Karachi, and 26th largest in the world, with a population of over 13 million. Located in north-eastern Punjab along the River Ravi, it is the largest Punjabi-speaking city in the world.",
 },
 {
