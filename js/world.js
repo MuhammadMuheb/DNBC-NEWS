@@ -5,7 +5,7 @@ document.getElementsByClassName('about')[0].innerHTML+=
 `
 let mcard = [
 {
-card_image:"../image/karachi.jpg",
+card_image:"../image/Karachi.jpg",
 card_title:"KARACHI",
 card_paragraph:"Karachi is the capital city of the Pakistani province of Sindh. It is the largest city in Pakistan and the 12th largest in the world, with a population of over 20 million. It is situated at the southern tip of the country along the Arabian Sea coast and formerly served as the capital of Pakistan.",
 },
